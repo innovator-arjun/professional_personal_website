@@ -1,10 +1,20 @@
+- Course: Natural Language Understanding with Deep Learning (McGill University)
+  Program: School of Public and International Affairs
+  School: Harvard
+  id: 7
+  description: >
+
+   
+  link: https://example.com
+
+
 - Course: Reinforcement Learning (Polytechnique Montreal)
   Program: School of Public and International Affairs  
   School: Harvard
   id: POL554
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+
   link: https://example.com
 
 - Course: Machine Learning (University of Montreal)
@@ -12,8 +22,8 @@
   School: Harvard
   id: POL585
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
+
+
   link: https://example.com
 
 - Course: Representation Learning (University of Montreal)
@@ -21,35 +31,35 @@
   School: Harvard
   id: 3
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
+
+
   link: https://example.com
 
-  - Course: Advanced Projects in Machine Learning (University of Montreal)
+- Course: Advanced Projects in Machine Learning (University of Montreal)
   Program: School of Public and International Affairs
   School: Harvard
   id: 4
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
+
+ 
   link: https://example.com
 
-  - Course: Data Science (University of Montreal)
+- Course: Data Science (University of Montreal)
   Program: School of Public and International Affairs
   School: Harvard
   id: 5
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
+
+ 
   link: https://example.com
 
-  - Course: Neural Scaling Law (University of Montreal)
+- Course: Neural Scaling Law (University of Montreal)
   Program: School of Public and International Affairs
   School: Harvard
   id: 6
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
-  link: https://example.com
 
  
+  link: https://example.com
+
+
