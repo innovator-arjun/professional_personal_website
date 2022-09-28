@@ -3,7 +3,28 @@
   description: 
   url: publications.html
   first: true
-  
+
+- name: Work Experience
+  id: 
+  description:
+  content: 
+  url: 
+  first: false
+
+- name: Honors/Award/Scholarship
+  id: 
+  description:
+  content: 
+  url: 
+  first: false
+
+- name: Talks
+  id: 
+  description:
+  content: 
+  url: 
+  first: false
+
 - name: Coursework
   id: courses
   description: 
@@ -17,12 +38,7 @@
   url: teaching.html
   first: false'
 
-- name: Work Experience
-  id: teaching
-  description:
-  content: 
-  url: teaching.html
-  first: false
+
 
 - name: Projects
   id: projects
