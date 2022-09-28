@@ -5,25 +5,25 @@
   first: true
 
 - name: Work Experience
-  id: 
+  id: workexp
   description:
   content: 
   url: 
   first: false
 
-- name: Honors/Award/Scholarship
-  id: 
-  description:
-  content: 
-  url: 
-  first: false
+# - name: Honors/Award/Scholarship
+#   id: 
+#   description:
+#   content: 
+#   url: 
+#   first: false
 
-- name: Talks
-  id: 
-  description:
-  content: 
-  url: 
-  first: false
+# - name: Talks
+#   id: 
+#   description:
+#   content: 
+#   url: 
+#   first: false
 
 - name: Coursework
   id: courses

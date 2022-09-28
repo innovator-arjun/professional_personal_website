@@ -13,5 +13,5 @@ links:
 - title: Vitae
   url: /assets/pdf/resume.pdf
 
-- title: Contact
-  url: contact.html
+# - title: Contact
+#   url: contact.html
