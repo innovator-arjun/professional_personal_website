@@ -1,21 +1,18 @@
 - School: AI4Good
   Degree: 
-  Program: Teaching Assistant AI4Good
+  Program: Teaching Assistant at AI4Good - Machine Learning
   id: POL-240/SPI-312-International-Relations
   data-id: data-harv1
   heading-id: head-harv1
   StartDate: June 2022
   EndDate: July 2022
   first: true   # one must be true to properly display
-  description: | 
-    \noindent
-    * Through this program, we guided and mentored underserved female students to begin or advance their careers in machine learning/Deep Learning. 
-
-    * Taught supplementary materials concepts such as Math, ML, DL, and RL. Also, mentored a cape-stone project on 'Emottive Application' to capture the mental health using Machine and Deep Learning for 4 weeks.
+  description: >
+    Through this program, we guided and mentored underserved female students to begin or advance their careers in machine learning/Deep Learning. Taught supplementary materials concepts such as Math, ML, DL, and RL. Also, mentored a cape-stone project on 'Emottive Application' to capture the mental health using Machine and Deep Learning for 4 weeks.
 
 - School: Polytechnique Montreal
   Degree: 
-  Program: Teaching Assistant, Machine Learning- INF8245E
+  Program: Teaching Assistant at Polytechnique Montreal -  Machine Learning- INF8245E
   id: POL-380-Human-Rights
   data-id: data-princ1   
   heading-id: head-princ1  # This can be any random string as long as each teaching set has a unique one. 

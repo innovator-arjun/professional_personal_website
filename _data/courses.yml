@@ -1,4 +1,4 @@
-- Course: POL 554 International Security Studies
+- Course: Reinforcement Learning (Polytechnique Montreal)
   Program: School of Public and International Affairs  
   School: Harvard
   id: POL554
@@ -7,10 +7,19 @@
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
   link: https://example.com
 
-- Course: POL 585 International Political Economy
+- Course: Machine Learning (University of Montreal)
   Program: School of Public and International Affairs
   School: Harvard
   id: POL585
+  description: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
+  link: https://example.com
+
+- Course: Representation Learning (University of Montreal)
+  Program: School of Public and International Affairs
+  School: Harvard
+  id: 3
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
