@@ -1,6 +1,13 @@
-- School: University of Montreal
-  Degree: Computer Science
-  Program: School of Public and International Affairs
-  Start Date: 
-  End Date: 
+- School: Mila, University of Montreal
+  Degree: Masters
+  Program: Machine Learning, Computer Science
+  Start Date: Sep-2020
+  End Date: Aug-2022
+  Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
+
+- School: Mila, Polytechnique Montreal
+  Degree: PhD
+  Program: Machine Learning, Computer Science
+  Start Date: Sep-2022
+  End Date: Aug-2026
   Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
