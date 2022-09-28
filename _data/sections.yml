@@ -1,8 +1,15 @@
+- name: Work Experience
+  id: projects
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  content: 
+  url: projects.html
+  first: true
+
 - name: Publications
   id: publications
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   url: publications.html
-  first: true
+  first: false
   
 - name: Coursework
   id: courses
@@ -17,10 +24,5 @@
   url: teaching.html
   first: false
 
-- name: Projects
-  id: projects
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  content: 
-  url: projects.html
-  first: false
+
 

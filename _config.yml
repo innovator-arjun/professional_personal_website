@@ -8,7 +8,7 @@
 # -----------BASE SETTINGS---------------#
 #========================================#
 
-title: Arjun 
+title: Home 
 email: 
 description: a minimalistic jekyll theme for academics
 baseurl:                                       # the subpath of your site, e.g. /blog
@@ -19,19 +19,19 @@ image_alt: Interested in Natural Language Processing & Reinforcement Learning   
 # =======================================#
 # -----------SITE SETTINGS---------------#
 #========================================#: 
-author: John Doe 
-profile_image: /assets/img/avatar/cropped.png #/assets/img/avatar/avatar.jpeg 
+author: Arjun Vaithilingam Sudhakar
+profile_image: /assets/img/arjun-vs.png  #/assets/img/avatar/avatar.jpeg 
 occupation: 
 snippet:
-twitter: tbutler0x90
-github: tcbutler320
-linkedin: tyler-b-a700a1aa
-stackoverflow: '12935605'
-website: https://tbutler.org
+twitter: 
+github: innovator-arjun
+linkedin: https://www.linkedin.com/in/innovatorarjun/
+stackoverflow: 
+website: 
 codepen: 
 medium: 
-email: developer.tbutler@gmail.com
-keybase: tbutler320
+email: innovatorarjun@gmail.com
+keybase: 
 pgp: 
 ctftime: 
 phonenumber: 

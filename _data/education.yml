@@ -1,3 +1,10 @@
+- School: Mila, Polytechnique Montreal
+  Degree: PhD
+  Program: Machine Learning, Computer Science
+  Start Date: Sep-2022
+  End Date: Aug-2026
+  Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
+
 - School: Mila, University of Montreal
   Degree: Masters
   Program: Machine Learning, Computer Science
@@ -5,9 +12,3 @@
   End Date: Aug-2022
   Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
 
-- School: Mila, Polytechnique Montreal
-  Degree: PhD
-  Program: Machine Learning, Computer Science
-  Start Date: Sep-2022
-  End Date: Aug-2026
-  Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
