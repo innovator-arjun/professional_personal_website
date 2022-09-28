@@ -15,9 +15,16 @@
   description:
   content: 
   url: teaching.html
-  first: false
+  first: false'
 
 - name: Work Experience
+  id: teaching
+  description:
+  content: 
+  url: teaching.html
+  first: false
+
+- name: Projects
   id: projects
   description: 
   content: 
