@@ -1,4 +1,4 @@
-- School: Harvard
+- School: AI4Good
   Degree: 
   Program: Teaching Assistant AI4Good
   id: POL-240/SPI-312-International-Relations
@@ -8,8 +8,10 @@
   EndDate: July 2022
   first: true   # one must be true to properly display
   description: >
-    Through this program, we guided and mentored underserved female students to begin or advance their careers in machine learning/Deep Learning. Taught supplementary materials concepts such as Math, ML, DL, and RL. Also, mentored a cape-stone project on 'Emottive Application' to capture the mental health using Machine and Deep Learning for 4 weeks.
-- School: Princeton
+    * Through this program, we guided and mentored underserved female students to begin or advance their careers in machine learning/Deep Learning. 
+    * Taught supplementary materials concepts such as Math, ML, DL, and RL. Also, mentored a cape-stone project on 'Emottive Application' to capture the mental health using Machine and Deep Learning for 4 weeks.
+
+- School: Polytechnique Montreal
   Degree: 
   Program: Teaching Assistant INF8245E Machine Learning
   id: POL-380-Human-Rights
