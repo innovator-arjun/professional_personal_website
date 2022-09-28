@@ -1,24 +1,30 @@
-- School: Harvard
+- School: AI4Good
   Degree: 
-  Program: POL 240/SPI 312 International Relations
+  Program: Teaching Assistant, AI4Good (Nonprofit Organization)
   id: POL-240/SPI-312-International-Relations
   data-id: data-harv1
   heading-id: head-harv1
-  StartDate: 08/30/2019
-  EndDate: 08/30/2020
+  StartDate: June 2022 
+  EndDate: July 2022
   first: true   # one must be true to properly display
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+* Through this program, we guided and mentored underserved female students to begin or advance their careers in
+machine learning/Deep Learning. 
+* Taught supplementary materials concepts such as Math, ML, DL, and RL. Also, mentored a cape-stone project on
+'Emottive Application' to capture the mental health using Machine and Deep Learning for 4 weeks.
 
-- School: Princeton
+
+- School: Polytechnique Montreal
   Degree: 
-  Program: POL 380 Human Rights
+  Program: Teaching Assistant, INF8245E - Machine Learning
   id: POL-380-Human-Rights
   data-id: data-princ1   
   heading-id: head-princ1  # This can be any random string as long as each teaching set has a unique one. 
-  StartDate: 08/30/2019
-  EndDate: 08/30/2020
+  StartDate: September 2021
+  EndDate: December 2021
   first: false
   Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Proposed Idea to have Math and python tutorial for students to brush-up pre-requisites. Linear Algebra and Scikit
+tutorials were created from scratch and delivered to class students. The website and YouTube lectures were kept up to date. I also kept a close track on how to improve the course next year
+based on students' feedback.
