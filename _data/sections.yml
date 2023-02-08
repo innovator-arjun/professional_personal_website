@@ -1,9 +1,3 @@
-- name: Publications
-  id: publications
-  description: 
-  url: publications.html
-  first: true
-  
 - name: Coursework
   id: courses
   description: 
