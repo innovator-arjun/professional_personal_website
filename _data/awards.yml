@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 - Course: Awarded the AI Week 2023 Student Travel Bursary worth [Value: $ 1,500 CAD ]
+=======
+- Course: Natural Language Understanding with Deep Learning (McGill University)
+>>>>>>> parent of 564aa3f (Update awards.yml)
   Program: School of Public and International Affairs
   School: Harvard
   id: s1
@@ -8,7 +12,7 @@
   link: https://example.com
 
 
-- Course: Mila-Quebec AI Institute Excellence Scholarship 2022 [Value: $ 5,000 CAD ]
+- Course: Reinforcement Learning (Polytechnique Montreal)
   Program: School of Public and International Affairs  
   School: Harvard
   id: s2
@@ -17,7 +21,11 @@
 
   link: https://example.com
 
+<<<<<<< HEAD
 - Course: Mila-Quebec AI Institute Graduate Funding (2022-2026) [Value: $ 27,000 CAD per year]
+=======
+- Course: Machine Learning (University of Montreal)
+>>>>>>> parent of 564aa3f (Update awards.yml)
   Program: School of Public and International Affairs
   School: Harvard
   id: s3
@@ -26,7 +34,7 @@
 
   link: https://example.com
 
-- Course: Ecole Polytechnique-Exemption Scholorship (2022-2026) [Value: $ 17,000 CAD per year]
+- Course: Representation Learning (University of Montreal)
   Program: School of Public and International Affairs
   School: Harvard
   id: s4
@@ -35,7 +43,7 @@
 
   link: https://example.com
 
-- Course: Microsoft Diversity Award (2021) [Value: $4,000 CAD]
+- Course: Advanced Projects in Machine Learning (University of Montreal)
   Program: School of Public and International Affairs
   School: Harvard
   id: s5
@@ -44,7 +52,7 @@
  
   link: https://example.com
 
-- Course: University of Montreal-Exemption Scholorship (2020-2022)[Value: \$9,500 CAD per year] 
+- Course: Data Science (University of Montreal)
   Program: School of Public and International Affairs
   School: Harvard
   id: s6
@@ -53,5 +61,13 @@
  
   link: https://example.com
 
+- Course: Neural Scaling Law (University of Montreal)
+  Program: School of Public and International Affairs
+  School: Harvard
+  id: 6
+  description: >
+
+ 
+  link: https://example.com
 
 
