@@ -1,53 +1,14 @@
-- Course: Natural Language Understanding with Deep Learning (McGill University)
-  Program: School of Public and International Affairs
-  School: Harvard
+- Course: Feature diversity in self-supervised learning
+  Program: *Pranshu Malviya, *AV Sudhakar
+  School: Conference on Lifelong Learning Agents (CoLLAs) - Workshop Track
+  id: POL554
+  description: >
+  link: https://arxiv.org/abs/2209.01275
+
+- Course: Multi Label Deep Learning classification approach for False Data Injection Attacks in Smart Grid.
+  Program: Prasanna Srinivasan V., Balasubadra K., Saravanan K, AV Sudhakar, Malarkodi S.
+  School: KSII Transactions on Internet & Information Systems - Journal
   id: 7
   description: >
    
-  link: https://example.com
-
-
-- Course: Reinforcement Learning (Polytechnique Montreal)
-  Program: School of Public and International Affairs  
-  School: Harvard
-  id: POL554
-  description: >
-  link: https://example.com
-
-- Course: Machine Learning (University of Montreal)
-  Program: School of Public and International Affairs
-  School: Harvard
-  id: POL585
-  description: >
-  link: https://example.com
-
-- Course: Representation Learning (University of Montreal)
-  Program: School of Public and International Affairs
-  School: Harvard
-  id: 3
-  description: >
-  link: https://example.com
-
-- Course: Advanced Projects in Machine Learning (University of Montreal)
-  Program: School of Public and International Affairs
-  School: Harvard
-  id: 4
-  description: >
- 
-  link: https://example.com
-
-- Course: Data Science (University of Montreal)
-  Program: School of Public and International Affairs
-  School: Harvard
-  id: 5
-  description: >
- 
-  link: https://example.com
-
-- Course: Neural Scaling Law (University of Montreal)
-  Program: School of Public and International Affairs
-  School: Harvard
-  id: 6
-  description: >
- 
-  link: https://example.com
+  link: https://koreascience.kr/article/JAKO202123755947593.page
