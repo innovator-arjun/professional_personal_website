@@ -18,7 +18,7 @@
     Timeline: May 2021 - January 2022
   date: true
   link: https://www.hydroquebec.com/residentiel/
-  image: http://placehold.it/100x100
+  image: /assets/img/icons/2x/hydro_crop.png
   tech: 
 
 
@@ -30,5 +30,5 @@
     Timeline: October 2017 - July 2020
   date: true
   link: https://www.wipro.com/
-  image:  http://placehold.it/100x100
+  image: /assets/img/icons/2x/wipro_crop.png
   tech: 
