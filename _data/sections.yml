@@ -4,7 +4,14 @@
   content: 
   url: projects.html
   first: true
-
+  
+- name: Publication
+  id: pub
+  description: 
+  content: 
+  first: false
+  
+  
 - name: Teaching
   id: teaching
   description:
