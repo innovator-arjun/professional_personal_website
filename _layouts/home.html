@@ -120,7 +120,7 @@ layout: default
                   {% endfor %}
                 </div>        
               </div>
-             {% elsif section.name == "Work Experience" %}
+            {% elsif section.name == "Work Experience" %}
               <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
                 <p><i>{{section.description}}</i></p>
                   {% for projects in site.data.projects %}
