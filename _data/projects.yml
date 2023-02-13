@@ -1,13 +1,11 @@
-- name: Project 1
+- name: Mila - Quebec AI Institute, Chandar Lab
   id: project1
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    Research Assistant (Full Time) , August 2021 - August 2022
   date: true
-  link: https://example.com
+  link: https://mila.quebec/en/
   image:  http://placehold.it/100x100
   tech: 
-    - python
 
 
 - name: Project 2
