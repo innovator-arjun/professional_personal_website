@@ -183,6 +183,24 @@ layout: default
                 {% endfor %}
                 </div>
               </div>
+            {% elsif section.name == "Scholarships/Awards" %}
+              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
+                <p><i>{{section.description}}</i></p>
+                <div class="list-group">
+                {% for courses in site.data.awards %}
+                  <button type="button" class="list-group-item text-left">{{ courses.Course }}</button>
+                {% endfor %}
+                </div>
+              </div>
+            {% elsif section.name == "Technical Talk" %}
+              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
+                <p><i>{{section.description}}</i></p>
+                <div class="list-group">
+                {% for courses in site.data.talk %}
+                  <button type="button" class="list-group-item text-left">{{ courses.Course }}</button>
+                {% endfor %}
+                </div>
+              </div>
             {% else %}
               <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
                 <h5 class="card-title text-center"><a href="/{{ section.url }}" class="highlighted">{{section.description}}</a></h5>
