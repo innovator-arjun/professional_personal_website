@@ -179,10 +179,14 @@ layout: default
                 <p><i>{{section.description}}</i></p>
                 <div class="list-group">
                 {% for courses in site.data.pub %}
-                  <button type="button" class="list-group-item text-left">{{ courses.Course }}</button>
+                  <button type="button" class="list-group-item text-left">
+                  {{ courses.Course }}
+                  
                   <p class="mb-1">{{ courses.Program }}</p>
                   <p class="mb-1">{{ courses.School }}</p>
                   <p class="mb-1">{{ courses.link }}</p>
+                  </button>
+
 
                 {% endfor %}
                 </div>
