@@ -8,7 +8,7 @@
   link: https://example.com
 
 
-- Course: Reinforcement Learning (Polytechnique Montreal)
+- Course: Learning Representation-Bishop Heber College Engineering College, India-2023
   Program: School of Public and International Affairs  
   School: Harvard
   id: POL554
@@ -17,7 +17,7 @@
 
   link: https://example.com
 
-- Course: Machine Learning (University of Montreal)
+- Course: Neural Networks-Rajalakshi Engineering College, India-2020
   Program: School of Public and International Affairs
   School: Harvard
   id: POL585
@@ -26,7 +26,7 @@
 
   link: https://example.com
 
-- Course: Representation Learning (University of Montreal)
+- Course: Machine Learning Projects-Bishop Heber College-2020
   Program: School of Public and International Affairs
   School: Harvard
   id: 3
@@ -35,7 +35,7 @@
 
   link: https://example.com
 
-- Course: Advanced Projects in Machine Learning (University of Montreal)
+- Course: Machine Learning-RMD Engineering College-2020
   Program: School of Public and International Affairs
   School: Harvard
   id: 4
@@ -44,19 +44,10 @@
  
   link: https://example.com
 
-- Course: Data Science (University of Montreal)
+- Course: Linear Algebra-Bishop Heber College, India-2019
   Program: School of Public and International Affairs
   School: Harvard
   id: 5
-  description: >
-
- 
-  link: https://example.com
-
-- Course: Neural Scaling Law (University of Montreal)
-  Program: School of Public and International Affairs
-  School: Harvard
-  id: 6
   description: >
 
  
