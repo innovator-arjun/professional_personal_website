@@ -183,6 +183,15 @@ layout: default
                 {% endfor %}
                 </div>
               </div>
+            {% elsif section.name == "Scholarships/Awards" %}
+              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
+                <p><i>{{section.description}}</i></p>
+                <div class="list-group">
+                {% for courses in site.data.awards %}
+                  <button type="button" class="list-group-item text-left">{{ courses.Course }}</button>
+                {% endfor %}
+                </div>
+              </div>
             {% elsif section.name == "Coursework" %}
               <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
                 <p><i>{{section.description}}</i></p>
