@@ -180,6 +180,10 @@ layout: default
                 <div class="list-group">
                 {% for courses in site.data.pub %}
                   <button type="button" class="list-group-item text-left">{{ courses.Course }}</button>
+                  <p class="mb-1">{{ courses.Program }}</p>
+                  <p class="mb-1">{{ courses.School }}</p>
+                  <p class="mb-1">{{ courses.link }}</p>
+
                 {% endfor %}
                 </div>
               </div>
