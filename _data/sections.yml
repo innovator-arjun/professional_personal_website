@@ -4,13 +4,6 @@
   content: 
   url: projects.html
   first: true
-  
-- name: Work Experience
-  id: work_experience
-  description: 
-  content: 
-  url: work_experience.html
-  first: false
 
 - name: Teaching
   id: teaching
