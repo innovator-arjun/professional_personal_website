@@ -18,20 +18,20 @@
   content: 
   first: false
 
-- name: Technical Talk
-  id: talk
-  description: 
-  content: 
-  first: false
+# - name: Technical Talk
+#   id: talk
+#   description: 
+#   content: 
+#   first: false
 
-- name: Scholarships/Awards
-  id: awards
-  description: 
-  content: 
-  first: false
+# - name: Scholarships/Awards
+#   id: awards
+#   description: 
+#   content: 
+#   first: false
 
-- name: Academic
-  id: academic
-  description: 
-  content: 
-  first: false
+# - name: Academic
+#   id: academic
+#   description: 
+#   content: 
+#   first: false
