@@ -4,12 +4,14 @@
   content: 
   url: projects.html
   first: true
-  
-- name: Coursework
-  id: courses
+
+
+- name: Work Experience
+  id: work
   description: 
   content: 
-  first: false
+  url: work.html
+  first: true
 
 - name: Teaching
   id: teaching
@@ -17,4 +19,9 @@
   content: 
   url: teaching.html
   first: false
-
+  
+- name: Coursework
+  id: courses
+  description: 
+  content: 
+  first: false
