@@ -11,7 +11,7 @@
   description: 
   content: 
   url: work.html
-  first: true
+  first: false
 
 - name: Teaching
   id: teaching
