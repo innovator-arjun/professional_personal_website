@@ -1,9 +1,9 @@
 - name: Mila - Quebec AI Institute, Chandar Lab
   id: project1
   description: >
-    Research Assistant (Full Time) 
-    
-    August 2021 - August 2022
+    Job Title: Research Assistant (Full Time) 
+  timeline: >
+    Timeline: August 2021 - August 2022
   date: true
   link: https://mila.quebec/en/
   image:  http://placehold.it/100x100
@@ -13,8 +13,9 @@
 - name: Hydro Quebec, Montreal, Quebec
   id: project2
   description: >
-    AI Research Intern (Full Time(May - Aug), Part Time(Sep - Jan))
-    May 2021 - January 2022
+    Job Title: AI Research Intern (Full Time(May - Aug), Part Time(Sep - Jan))
+  timeline: >
+    Timeline: May 2021 - January 2022
   date: true
   link: https://www.hydroquebec.com/residentiel/
   image: http://placehold.it/100x100
@@ -24,8 +25,9 @@
 - name: Wipro Technologies, India
   id: project3
   description: >
-    Machine Learning Engineer(Full Time)
-    October 2017 - July 2020
+    Job Title: Machine Learning Engineer(Full Time)
+  timeline: >
+    Timeline: October 2017 - July 2020
   date: true
   link: https://www.wipro.com/
   image:  http://placehold.it/100x100
