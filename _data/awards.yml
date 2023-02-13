@@ -1,7 +1,7 @@
 - Course: Awarded the AI Week 2022 Student Travel Bursary worth [Value: $ 1,500 CAD ]
   Program: School of Public and International Affairs
   School: Harvard
-  id: 7
+  id: s1
   description: >
 
    
@@ -11,16 +11,16 @@
 - Course: Mila-Quebec AI Institute Excellence Scholarship 2022 [Value: $ 5,000 CAD ]
   Program: School of Public and International Affairs  
   School: Harvard
-  id: POL554
+  id: s2
   description: >
 
 
   link: https://example.com
 
-- Course: Mila-Quebec AI Institute Graduate Funding (2022-2026) [Value: \$ 27,000 CAD per year]
+- Course: Mila-Quebec AI Institute Graduate Funding (2022-2026) [Value: $ 27,000 CAD per year]
   Program: School of Public and International Affairs
   School: Harvard
-  id: POL585
+  id: s3
   description: >
 
 
@@ -29,7 +29,7 @@
 - Course: Ecole Polytechnique-Exemption Scholorship (2022-2026) [Value: $ 17,000 CAD per year]
   Program: School of Public and International Affairs
   School: Harvard
-  id: 3
+  id: s4
   description: >
 
 
@@ -38,7 +38,7 @@
 - Course: Microsoft Diversity Award (2021) [Value: $4,000 CAD]
   Program: School of Public and International Affairs
   School: Harvard
-  id: 4
+  id: s5
   description: >
 
  
@@ -47,7 +47,7 @@
 - Course: University of Montreal-Exemption Scholorship (2020-2022)[Value: \$9,500 CAD per year] 
   Program: School of Public and International Affairs
   School: Harvard
-  id: 5
+  id: s6
   description: >
 
  
