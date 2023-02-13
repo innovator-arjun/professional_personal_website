@@ -10,6 +10,20 @@
   description: >
     Oversaw successful submission of proposals like Google teaching proposal and CIFAR. Also, improved lab functioning through new systems. Formed a cost-effective web development team through outsourcing, saving research time and increasing lab visibility.
 
+
+- School: CoLLAs2022
+  Degree: 
+  Program: Organizing Committee, CoLLAs2022
+  id: POL-380-Human-Rights_collas2022
+  data-id: data-princ1   
+  heading-id: head-princ1_collas2022  # This can be any random string as long as each teaching set has a unique one. 
+  StartDate: December 2021
+  EndDate: August 2022
+  first: false
+  Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
+  description: >
+    Test
+
 - School: TM
   Degree: 
   Program: Toastmasters International (Nonprofit Educational Organization)
