@@ -8,7 +8,7 @@
   EndDate: July 2022
   first: true   # one must be true to properly display
   description: >
-    Through this program, we guided and mentored underserved female students to begin or advance their careers in machine learning/Deep Learning. Taught supplementary materials concepts such as Math, ML, DL, and RL. Also, mentored a cape-stone project on 'Emottive Application' to capture the mental health using Machine and Deep Learning for 4 weeks.
+    As part of the program, I had the opportunity to guide and mentor underprivileged female students in the field of Machine Learning and Deep Learning. I taught a range of supplementary materials, including mathematics, machine learning, deep learning, and reinforcement learning. Additionally, I mentored a capstone project on the development of an "Emotive Application," which aimed to capture mental health information using both Machine and Deep Learning techniques over a period of four weeks.
 
 - School: Polytechnique Montreal
   Degree: 
@@ -21,4 +21,4 @@
   first: false
   Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
   description: >
-    Proposed Idea to have Math and python tutorial for students to brush-up pre-requisites. Linear Algebra and Scikit tutorials were created from scratch and delivered to class students. The website and YouTube lectures were kept up to date. I also kept a close track on how to improve the course next year based on students feedback.
+    "I proposed the idea of providing Math and Python tutorials for students to brush up on prerequisites. I created from scratch Linear Algebra and Scikit tutorials and delivered them to the class students. In addition to teaching and grading, I also kept the website and YouTube lectures up to date. I continuously monitored student feedback to continuously improve the course by introducing auto grading."
