@@ -1,5 +1,5 @@
  {% assign theme = site.data.themes[site.ui_theme] %}
-  <h3 class="card-title" style="font-family:{{ theme.education-title-font}};font-size:{{ theme.education-title-size }};color:{{theme.education-font-color}};">Education</h3>
+  <h5 class="card-title" style="font-family:{{ theme.education-title-font}};font-size:{{ theme.education-title-size }};color:{{theme.education-font-color}};">Education</h5>
   <ul class="list-unstyled">
   {% for entry in site.data.education %}
     <li class="media">
@@ -7,6 +7,8 @@
       <div class="media-body">
         <h5 style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-entry-size }};color:{{theme.education-font-color}};">{{ entry.School }}</h5>
         <p style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-section-size }};color:{{theme.education-font-color}};"><i>{{ entry.Program }}</i></p>
+        <p style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-section-size }};color:{{theme.education-font-color}};"><i>{{ entry.Degree }}</i></p>
+
         {% if entry.Degree %}
           <p>{{ entry.Degree }}</p>
         {% endif %}
