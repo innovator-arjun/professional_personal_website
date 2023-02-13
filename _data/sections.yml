@@ -11,18 +11,17 @@
   content: 
   first: false
   
+- name: Academic Services
+  id: academic
+  description: 
+  content: 
+  first: false
   
 - name: Teaching
   id: teaching
   description:
   content: 
   url: teaching.html
-  first: false
-  
-- name: Coursework
-  id: courses
-  description: 
-  content: 
   first: false
 
 - name: Technical Talk
@@ -37,8 +36,8 @@
   content: 
   first: false
 
-- name: Academic Services
-  id: academic
+- name: Coursework
+  id: courses
   description: 
   content: 
   first: false
