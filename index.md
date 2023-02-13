@@ -8,4 +8,4 @@ Currenlty pursuing first year of my Ph.D. at Mila-Quebec AI Institute under Prof
 
 **Research Interest** : Reinforcement learning, Natural language processing
                                                                        
-**Links** :[Google Scholar](https://scholar.google.com/citations?user=Y7Z8o6sAAAAJ&hl=en) , [Linkedin](https://www.linkedin.com/in/innovatorarjun/) , [Github](https://github.com/innovator-arjun) 
+**Links** : [Google Scholar](https://scholar.google.com/citations?user=Y7Z8o6sAAAAJ&hl=en) , [Linkedin](https://www.linkedin.com/in/innovatorarjun/) , [Github](https://github.com/innovator-arjun) 
