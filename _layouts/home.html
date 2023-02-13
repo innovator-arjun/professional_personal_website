@@ -74,7 +74,7 @@ layout: default
       <div class="tab-content mt-3">
         {% for section in site.data.sections %}
           {% if section.first %}
-            {% if section.name == "Projects" %}
+            {% if section.name == "Work Experience" %}
               <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel">
                 <p class="card-text">{{section.description}}</p>
                   {% for projects in site.data.projects %}
@@ -101,7 +101,7 @@ layout: default
                 <p><i>{{section.description}}</i></p>
                 <p class="card-text">{% bibliography -f presentations %}</p>              
               </div>
-            {% elsif section.name == "Projects" %}
+            {% elsif section.name == "Work Experience" %}
               <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
                 <p><i>{{section.description}}</i></p>
                   {% for projects in site.data.projects %}
