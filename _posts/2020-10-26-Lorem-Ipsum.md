@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Lorem Ipsum"
-description: "A Description"
+title:  "show, attend and tell: neural image caption generation with visual attention"
+description: "Critical Review"
 date:   2020-10-26 20:01:21 -0400
 type: card-img-top
 categories: latin text
 image: http://placehold.it/750X300?text=Header+Image # for local images, place in /assets/img/posts/
 caption:
-last-updated: 2020-10-26 20:01:21 -0400
+last-updated: 2023-02-23 
 categories: post ipsum
-tag: ipsum
-author: Tyler Butler
+tag: review
+author: Arjun Vaithilingam Sudhakar
 card: card-1
 ---
 
