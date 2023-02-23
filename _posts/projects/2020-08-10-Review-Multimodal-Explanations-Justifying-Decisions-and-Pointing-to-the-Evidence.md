@@ -14,7 +14,7 @@ author: Arjun Vaithilingam Sudhakar
 card: card-1
 ---
 <!-- ![key image](/assets/img/posts/cr_show_attend_tell.png) -->
-<a href="url"><img src="/assets/img/posts/cr_multimodal explanations.png" align="center" height="350" width="750" ></a>
+<a href="/assets/img/posts/cr_multimodal explanations.png"><img src="/assets/img/posts/cr_multimodal explanations.png" align="center" height="350" width="750" ></a>
 
 Paper Link --> [Multimodal Explanations: Justifying Decisions and Pointing to the Evidence](https://openaccess.thecvf.com/content_cvpr_2018/papers/Park_Multimodal_Explanations_Justifying_CVPR_2018_paper.pdf)
 ## Summary:
