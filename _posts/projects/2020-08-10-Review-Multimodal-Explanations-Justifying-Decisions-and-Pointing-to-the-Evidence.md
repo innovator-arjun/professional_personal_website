@@ -5,7 +5,7 @@ description: ""
 date:   2023-02-23
 type: card-img-top
 categories: latin text
-image: http://placehold.it/750X300?text=Header+Image # for local images, place in /assets/img/posts/
+image: /assets/img/posts/cr_show_attend_tell.png # for local images, place in /assets/img/posts/
 caption:
 last-updated: 2023-02-23
 categories: Paper Review
@@ -19,26 +19,25 @@ card: card-1
 Paper Link --> [Multimodal Explanations: Justifying Decisions and Pointing to the Evidence](https://openaccess.thecvf.com/content_cvpr_2018/papers/Park_Multimodal_Explanations_Justifying_CVPR_2018_paper.pdf)
 ## Summary:
 
-The authors in this paper present a model that takes advantage of visual and language processing to generate captions for images. The task of image captioning is considered a challenging problem in the field of artificial intelligence, as it requires the model to not only detect the objects present in the image but also to understand their relationships and generate corresponding words that accurately describe the image's content. 
-Previous methods have used neural networks and recurrent architectures with object detectors to generate captions. However, the authors in this paper propose an attention framework in the encoder(CNN-VGG) and decoder(LSTM) approach that learns the latent alignments between words and images from scratch, which is quite interesting. Also, this framework enables the model to visualize the most relevant regions of the image it attends to as it generates the caption. 
+Understanding the factors that influence the decision-making process of machine learning models is essential for their interpretability. In this paper, the authors present two contributions. Firstly, they introduce two datasets, namely ACT-X and VQA-X, which provide visual and textual explanations for classification decisions. Current datasets lack access to explanations for a decision in the current datasets. Secondly, they propose a novel multimodal Pointing and Justification Explanation (PJ-X), enabling the model to visually indicate the evidence supporting its decision and justify it with text. 
 
-The authors introduced soft (relative importance to the part of the image) and hard(attention to certain isolated parts of the image) attention, significantly improving the model's performance on three benchmark datasets. Overall, this paper presents a major advance in the field of image captioning and sets the stage for further research in this area.
+Previous methods were limited in providing explanations in only one modality, i.e., unimodal explanation. They could either explain through text conditioned on the image or use only images to visualize the model attending. Addressing this problem, the proposed PJ-X system provides the model's prediction using an attention mask to identify the salient region without using domain knowledge. Overall, this paper presents a major advance in the field of explainability and sets the stage for further research in this area through novel datasets and architecture.
 
 ## Strong Points:
-- The performance of the single model with attention was able to outperform the previous methods using an ensemble of models in terms of BLUE and METEOR scores.
-- The visualization of the captions generation was so interesting as how the model attends to the important region as most of the machine learning models are black boxes, and understanding where and why it is failing might be a good foundation block for more interesting follow-up works.
-- The authors used a simple writing style with sufficient background work to understand this work. Also,  the explanations are conveyed well through appropriate supporting examples, equations, diagrams, and visual cues that help the readers understand better. Also, the code base released.
+- Added textual and visual explanations in the visual question answering and activity recognition dataset to evaluate how the model-generated answers correspond to the humans. 
+- Introducing a multimodal system that can make predictions, provide natural language justifications for decisions, and accurately point to the relevant supporting part in an image.
+- Finally, this paper concludes by conducting an extensive analysis of the insights gained from the proposed multimodal explanation approach and contrasting it with the unimodal explanation approach. Additionally, ablation studies were performed to evaluate the effectiveness of descriptions versus explanations. 
 
 ## Weak Points:
-- The authors fail to mention the significance of the hyperparameters rand e in their paper, which could be value-adding for readers to comprehend this approach fully to incorporate in their future research work.
-- Another important aspect is the runtime comparison, as the paper doesn’t use an object detector. How better is it in terms of training time and inference time?
-- The paper hasn’t mentioned the limitation and future direction. 
+- Based on the constraints implied during the collections, answers and textual explanations hinders the open form, which is most practical in real application. EG: Most of the sample images provided in this paper start with because. Will the performance drop if there is a variation in the explanations generated?
+- When comparing the VQA-X dataset with VQA, it has a significantly smaller training set. As collecting explanations is a harder and more expensive process.
+- Very little to no ablations were done on the architecture to understand the effects of the components in the overall system. Regarding network parameters, choice of normalizations, run time vs. model size and accuracy improvements tradeoff, etc.
+
 
 ## Reflections:
-- This seems like a solid paper to work on the Explainable Artificial Intelligence as most of the AI models are black boxes, having an inference and understanding plays a key role
-- Exploring attention in image & text-based architectures to explore the benefits of attention further.
+- Understanding the effect of bias in the VQA systems compared to VQA-X. Using explanation information, can we make the model learn non-spurious correlation? I.e., forcing the model to focus on the information perceived the humans to make it less biased.
+- Since the dataset collection process is expensive, transferring this approach to other systems is challenging. Hence using some self-supervised approach or data-efficient adaptions can help the system to improve its performance and provide faithful explanations.
+
 
 ## Most interesting thought: 
-- Using attention: We calculate the weights for each annotation vector
-  - Soft Attention: Higher value to the part of the picture having higher attention use a weighted average to have relative importance.
-  - Hard Attention: Use one annotation vector which a high value to the LSTM so that only the most relevant aspect of the image is in the context vector. Remaining ignored. 
+Recent work in self-supervised transformer architecture, like VisualBert, and ViLBERT, has pushed the boundaries in Vision-Language systems. It would be interesting to use transformer modules in this system to evaluate the model regarding explanations and performance as they are trained. 
