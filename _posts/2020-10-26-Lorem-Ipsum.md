@@ -13,6 +13,7 @@ tag: Review
 author: Arjun Vaithilingam Sudhakar
 card: card-1
 ---
+![key image](/assets/img/posts/cr_show_attend_tell.png)
 Paper Link --> [show, attend and tell: neural image caption generation with visual attention](https://arxiv.org/abs/1502.03044)
 # Summary:
 
