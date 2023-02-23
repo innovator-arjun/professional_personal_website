@@ -9,17 +9,33 @@ image: http://placehold.it/750X300?text=Header+Image # for local images, place i
 caption:
 last-updated: 2023-02-23 
 categories: post ipsum
-tag: review
+tag: Review
 author: Arjun Vaithilingam Sudhakar
 card: card-1
 ---
+Paper Link --> [show, attend and tell: neural image caption generation with visual attention](https://arxiv.org/abs/1502.03044)
+# Summary:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna id volutpat lacus laoreet non curabitur gravida arcu. Quisque non tellus orci ac. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Mi proin sed libero enim. Vitae sapien pellentesque habitant morbi tristique. Sit amet commodo nulla facilisi nullam vehicula. A condimentum vitae sapien pellentesque habitant morbi. Id venenatis a condimentum vitae sapien. In nulla posuere sollicitudin aliquam ultrices.
+The authors in this paper present a model that takes advantage of visual and language processing to generate captions for images. The task of image captioning is considered a challenging problem in the field of artificial intelligence, as it requires the model to not only detect the objects present in the image but also to understand their relationships and generate corresponding words that accurately describe the image's content. 
+Previous methods have used neural networks and recurrent architectures with object detectors to generate captions. However, the authors in this paper propose an attention framework in the encoder(CNN-VGG) and decoder(LSTM) approach that learns the latent alignments between words and images from scratch, which is quite interesting. Also, this framework enables the model to visualize the most relevant regions of the image it attends to as it generates the caption. 
 
-Amet mauris commodo quis imperdiet massa tincidunt. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Orci sagittis eu volutpat odio facilisis mauris sit amet. Est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Amet consectetur adipiscing elit pellentesque habitant morbi. Sit amet nulla facilisi morbi tempus iaculis urna. A lacus vestibulum sed arcu. Turpis cursus in hac habitasse platea dictumst. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Est ante in nibh mauris cursus mattis molestie a. Sit amet massa vitae tortor condimentum lacinia. Mauris ultrices eros in cursus turpis. Pellentesque habitant morbi tristique senectus et. Congue nisi vitae suscipit tellus mauris. Tincidunt praesent semper feugiat nibh sed pulvinar. Nec dui nunc mattis enim ut tellus elementum sagittis. Metus vulputate eu scelerisque felis. Morbi enim nunc faucibus a pellentesque. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio.
+The authors introduced soft (relative importance to the part of the image) and hard(attention to certain isolated parts of the image) attention, significantly improving the model's performance on three benchmark datasets. Overall, this paper presents a major advance in the field of image captioning and sets the stage for further research in this area.
 
-A erat nam at lectus urna duis convallis convallis tellus. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Tristique risus nec feugiat in fermentum posuere urna nec. Vitae aliquet nec ullamcorper sit amet. Diam volutpat commodo sed egestas. Purus semper eget duis at tellus at urna condimentum mattis. Tristique senectus et netus et malesuada. Sit amet tellus cras adipiscing enim. Senectus et netus et malesuada fames ac turpis egestas integer. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Non diam phasellus vestibulum lorem sed risus ultricies. Neque sodales ut etiam sit amet nisl purus in. Molestie at elementum eu facilisis. Turpis egestas integer eget aliquet nibh praesent. Turpis in eu mi bibendum neque. Molestie at elementum eu facilisis sed odio morbi quis commodo. Phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Purus gravida quis blandit turpis. Mi in nulla posuere sollicitudin aliquam ultrices.
+# Strong Points:
+- The performance of the single model with attention was able to outperform the previous methods using an ensemble of models in terms of BLUE and METEOR scores.
+- The visualization of the captions generation was so interesting as how the model attends to the important region as most of the machine learning models are black boxes, and understanding where and why it is failing might be a good foundation block for more interesting follow-up works.
+- The authors used a simple writing style with sufficient background work to understand this work. Also,  the explanations are conveyed well through appropriate supporting examples, equations, diagrams, and visual cues that help the readers understand better. Also, the code base released.
 
-Donec ac odio tempor orci dapibus ultrices in. Sed libero enim sed faucibus turpis in eu. Viverra aliquet eget sit amet tellus cras adipiscing enim. Feugiat nibh sed pulvinar proin. Congue eu consequat ac felis donec et odio pellentesque diam. Consequat interdum varius sit amet mattis vulputate enim nulla. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Sit amet consectetur adipiscing elit. Nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis. Viverra orci sagittis eu volutpat. Integer eget aliquet nibh praesent tristique magna sit amet purus. Ullamcorper sit amet risus nullam. Non pulvinar neque laoreet suspendisse interdum consectetur libero. Consequat id porta nibh venenatis cras sed felis. Nisi lacus sed viverra tellus in hac habitasse. Viverra mauris in aliquam sem fringilla ut.
+# Weak Points:
+- The authors fail to mention the significance of the hyperparameters rand e in their paper, which could be value-adding for readers to comprehend this approach fully to incorporate in their future research work.
+- Another important aspect is the runtime comparison, as the paper doesn’t use an object detector. How better is it in terms of training time and inference time?
+- The paper hasn’t mentioned the limitation and future direction. 
 
-Pulvinar pellentesque habitant morbi tristique senectus et netus et. Lacus laoreet non curabitur gravida arcu ac. Pulvinar pellentesque habitant morbi tristique senectus et netus. Ut lectus arcu bibendum at varius vel. Ridiculus mus mauris vitae ultricies leo integer malesuada. Amet dictum sit amet justo. Pretium vulputate sapien nec sagittis aliquam malesuada. Libero enim sed faucibus turpis in. Id volutpat lacus laoreet non curabitur gravida arcu ac. Morbi tristique senectus et netus. Id neque aliquam vestibulum morbi blandit cursus risus at. Turpis massa sed elementum tempus egestas sed sed risus pretium. Tincidunt eget nullam non nisi est sit amet facilisis. Amet purus gravida quis blandit turpis cursus in. Semper risus in hendrerit gravida rutrum quisque non tellus. Cras adipiscing enim eu turpis egestas pretium aenean pharetra.
+# Reflections:
+- This seems like a solid paper to work on the Explainable Artificial Intelligence as most of the AI models are black boxes, having an inference and understanding plays a key role
+- Exploring attention in image & text-based architectures to explore the benefits of attention further.
+
+# Most interesting thought: 
+- Using attention: We calculate the weights for each annotation vector
+  - Soft Attention: Higher value to the part of the picture having higher attention use a weighted average to have relative importance.
+  - Hard Attention: Use one annotation vector which a high value to the LSTM so that only the most relevant aspect of the image is in the context vector. Remaining ignored. 
