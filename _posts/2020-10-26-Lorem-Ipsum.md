@@ -2,18 +2,20 @@
 layout: post
 title:  "show, attend and tell: neural image caption generation with visual attention"
 description: "Critical Review"
-date:   2020-10-26 20:01:21 -0400
+date:   2023-02-23
 type: card-img-top
 categories: latin text
 image: http://placehold.it/750X300?text=Header+Image # for local images, place in /assets/img/posts/
 caption:
 last-updated: 2023-02-23 
-categories: post ipsum
+categories: Review
 tag: Review
 author: Arjun Vaithilingam Sudhakar
 card: card-1
 ---
-![key image](/assets/img/posts/cr_show_attend_tell.png)
+<!-- ![key image](/assets/img/posts/cr_show_attend_tell.png) -->
+<a href="url"><img src="/assets/img/posts/cr_show_attend_tell.png" align="center" height="350" width="750" ></a>
+
 Paper Link --> [show, attend and tell: neural image caption generation with visual attention](https://arxiv.org/abs/1502.03044)
 # Summary:
 
