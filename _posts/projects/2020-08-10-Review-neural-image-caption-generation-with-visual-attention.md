@@ -5,7 +5,7 @@ description: ""
 date:   2023-02-23
 type: card-img-top
 categories: latin text
-image: http://placehold.it/750X300?text=Header+Image # for local images, place in /assets/img/posts/
+image: /assets/img/posts/cr_show_attend_tell.png # for local images, place in /assets/img/posts/
 caption:
 last-updated: 2023-02-23
 categories: Paper Review
