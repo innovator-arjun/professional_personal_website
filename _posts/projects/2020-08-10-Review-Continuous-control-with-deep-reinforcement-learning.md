@@ -14,7 +14,7 @@ author: Arjun Vaithilingam Sudhakar
 card: card-1
 ---
 <!-- ![key image](/assets/img/posts/cr_show_attend_tell.png) -->
-<a href="url"><img src="/assets/img/posts/ddpg.png" align="center" height="350" width="750" ></a>
+<a href="url"><img src="/assets/img/posts/ddpg.png" align="center" height="350" width="550" ></a>
 
 Paper Link --> [Continuous control with deep reinforcement learning](https://arxiv.org/pdf/1509.02971.pdf)
 ## Summary:
