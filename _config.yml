@@ -12,7 +12,7 @@ title: Home
 email: 
 description: Interested in Natural Language Processing & Reinforcement Learning
 baseurl:                                       # the subpath of your site, e.g. /blog
-url: "https://arjun-vaithilingam-sudhakar.netlify.app"          # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.arjunvaithilingamsudhakar.com/"          # the base hostname & protocol for your site, e.g. http://example.com
 image: /assets/img/arjun_cropped.jpg              # used to generate site link preview
 image_alt: Interested in Natural Language Processing & Reinforcement Learning   # image description
 
