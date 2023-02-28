@@ -5,7 +5,7 @@ description: ""
 date:   2023-02-27
 type: card-img-top
 categories: latin text
-image: http://placehold.it/750X300?text=Header+Image # for local images, place in /assets/img/posts/
+image: /assets/img/posts/ddpg.png # for local images, place in /assets/img/posts/
 caption:
 last-updated: 2023-02-27
 categories: Paper Review
@@ -14,7 +14,7 @@ author: Arjun Vaithilingam Sudhakar
 card: card-1
 ---
 <!-- ![key image](/assets/img/posts/cr_show_attend_tell.png) -->
-<a href="url"><img src="/assets/img/posts/cr_show_attend_tell.png" align="center" height="350" width="750" ></a>
+<a href="url"><img src="/assets/img/posts/ddpg.png" align="center" height="350" width="750" ></a>
 
 Paper Link --> [Continuous control with deep reinforcement learning](https://arxiv.org/pdf/1509.02971.pdf)
 ## Summary:
@@ -37,4 +37,4 @@ DDPG exhibits superior performance in continuous control spaces by leveraging no
 
 
 ## Reflections:
-- A promising avenue for improving sample efficiency and performance gains in machine learning tasks is using self-supervised learning approaches. 
+- A promising avenue for improving sample efficiency and performance gains in machine learning tasks is using self-supervised learning approaches for learning better representations. 
