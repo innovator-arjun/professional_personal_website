@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Continuous control with deep reinforcement learning"
+title:  "show, attend and tell: neural image caption generation with visual attention"
 description: ""
-date:   2023-02-27
+date:   2023-02-23
 type: card-img-top
 categories: latin text
 image: http://placehold.it/750X300?text=Header+Image # for local images, place in /assets/img/posts/
@@ -16,24 +16,29 @@ card: card-1
 <!-- ![key image](/assets/img/posts/cr_show_attend_tell.png) -->
 <a href="url"><img src="/assets/img/posts/cr_show_attend_tell.png" align="center" height="350" width="750" ></a>
 
-Paper Link --> [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
+Paper Link --> [show, attend and tell: neural image caption generation with visual attention](https://arxiv.org/abs/1502.03044)
 ## Summary:
 
-The author has proposed an algorithm utilizing deep reinforcement learning techniques, specifically actor-critic, model-free, and based on a deterministic policy gradient. This algorithm is designed to operate on continuous control, overcoming the limitations of the existing DQN approach, which is inadequate in continuous action spaces due to the dimensionality curse and discretion, which discards valuable information.
+The authors in this paper present a model that takes advantage of visual and language processing to generate captions for images. The task of image captioning is considered a challenging problem in the field of artificial intelligence, as it requires the model to not only detect the objects present in the image but also to understand their relationships and generate corresponding words that accurately describe the image's content. 
+Previous methods have used neural networks and recurrent architectures with object detectors to generate captions. However, the authors in this paper propose an attention framework in the encoder(CNN-VGG) and decoder(LSTM) approach that learns the latent alignments between words and images from scratch, which is quite interesting. Also, this framework enables the model to visualize the most relevant regions of the image it attends to as it generates the caption. 
 
-Previous approaches employed linear function approximators, effective only in low-dimensional problems and lacking scalability in high-dimensional spaces. Additionally, unstable training posed a significant challenge in the existing literature, rendering it infeasible. The DDPG algorithm draws inspiration from the DQN approach and utilizes vital features such as replay buffers and target networks for stable learning.
-
-DDPG exhibits superior performance in continuous control spaces by leveraging non-linear approximators such as neural networks, allowing for online learning and operation in continuous action spaces with stable training. Moreover, utilizing pixels alone has outperformed methods that rely on planners with full access to the dynamics and derivatives. Also, this paper shows that the DDPG was able to learn a good policy for the more complex task in spite of the overestimation or biases problem in Q-learning.
+The authors introduced soft (relative importance to the part of the image) and hard(attention to certain isolated parts of the image) attention, significantly improving the model's performance on three benchmark datasets. Overall, this paper presents a major advance in the field of image captioning and sets the stage for further research in this area.
 
 ## Strong Points:
-- DDPG is an off-policy algorithm that utilizes experience replay, which allows the agent to learn from past experiences rather than relying solely on current experiences. Storing previous experiences in a replay buffer reduces the correlation between samples, leading to more efficient and stable learning.
-- Utilizing a target Q network is a crucial aspect of the DDPG algorithm, contributing to divergence. Also, empirical evidence supports the significance of target networks, as they enhance stability and efficiency in the learning process.
-- Using Batch Normalization to scale the state values for different environments. Also, state-of-the-art results are achieved on 20 physics simulation tasks without change in algorithm, network architecture, and hyper-parameters, exhibiting its robustness.
-- Handling the exploration in continuous action spaces as random sampling will not work. Since it is also off-policy exploration is independent as a result, OU noise is added to the actor policy
+- The performance of the single model with attention was able to outperform the previous methods using an ensemble of models in terms of BLUE and METEOR scores.
+- The visualization of the captions generation was so interesting as how the model attends to the important region as most of the machine learning models are black boxes, and understanding where and why it is failing might be a good foundation block for more interesting follow-up works.
+- The authors used a simple writing style with sufficient background work to understand this work. Also,  the explanations are conveyed well through appropriate supporting examples, equations, diagrams, and visual cues that help the readers understand better. Also, the code base released.
 
 ## Weak Points:
-- Since Mujoco feedback is provided at every step, which is the case in most real applications, this approach might fail as it depends only on the extrinsic reward.
-- Also, the assumption is made as fully observable. Though it performed well in the existing environment, making it work in a partially observable setting would be challenging
+- The authors fail to mention the significance of the hyperparameters rand e in their paper, which could be value-adding for readers to comprehend this approach fully to incorporate in their future research work.
+- Another important aspect is the runtime comparison, as the paper doesn’t use an object detector. How better is it in terms of training time and inference time?
+- The paper hasn’t mentioned the limitation and future direction. 
 
 ## Reflections:
-- A promising avenue for improving sample efficiency and performance gains in machine learning tasks is using self-supervised learning approaches.
+- This seems like a solid paper to work on the Explainable Artificial Intelligence as most of the AI models are black boxes, having an inference and understanding plays a key role
+- Exploring attention in image & text-based architectures to explore the benefits of attention further.
+
+## Most interesting thought: 
+- Using attention: We calculate the weights for each annotation vector
+  - Soft Attention: Higher value to the part of the picture having higher attention use a weighted average to have relative importance.
+  - Hard Attention: Use one annotation vector which a high value to the LSTM so that only the most relevant aspect of the image is in the context vector. Remaining ignored. 
