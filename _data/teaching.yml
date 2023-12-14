@@ -1,6 +1,6 @@
 - School: AI4Good
-  Degree: 
-  Program: Teaching Assistant at AI4Good - Machine Learning
+  Degree:
+  Program: <strong> Teaching Assistant at AI4Good - Machine Learning </strong>
   id: POL-240/SPI-312-International-Relations
   data-id: data-harv1
   heading-id: head-harv1
@@ -8,17 +8,17 @@
   EndDate: July 2022
   first: true   # one must be true to properly display
   description: >
-    Guided and mentored underprivileged female students in Machine/Deep Learning, teaching math, ML/DL/RL. Mentored capstone project on Emotive Application using ML/DL over 4 weeks.
+    <li>Guided and mentored underprivileged female students in Machine/Deep Learning, teaching math, ML/DL/RL.</li><li> Mentored capstone project on Emotive Application using ML/DL over 4 weeks.</li>
 
-- School: Polytechnique Montreal
-  Degree: 
-  Program: Teaching Assistant at Polytechnique Montreal -  Machine Learning- INF8245E
+- School: <strong> Polytechnique Montreal </strong>
+  Degree:
+  Program: <strong> Teaching Assistant at Polytechnique Montreal -  Machine Learning- INF8245E</strong>
   id: POL-380-Human-Rights
-  data-id: data-princ1   
-  heading-id: head-princ1  # This can be any random string as long as each teaching set has a unique one. 
+  data-id: data-princ1
+  heading-id: head-princ1  # This can be any random string as long as each teaching set has a unique one.
   StartDate: September 2021
   EndDate: December 2021
   first: false
   Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
   description: >
-    Proposed and led math and python tutorials for students, including linear algebra and scikit. Delivered lectures in-class and online. Kept track of student feedback for course improvement.
+    <li>Proposed and led math and python tutorials for students, including linear algebra and scikit.</li> <li>Delivered lectures in-class and online. Kept track of student feedback for course improvement.</li>

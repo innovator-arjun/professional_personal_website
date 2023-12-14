@@ -1,6 +1,6 @@
 - School: Mila
-  Degree: 
-  Program: Lab Manager, Chandar Research Lab, Mila - Quebec AI Institute
+  Degree:
+  Program: <strong>Lab Manager, Chandar Research Lab, Mila - Quebec AI Institute</strong>
   id: POL-240/SPI-312-International-Relations
   data-id: data-harv1
   heading-id: head-harv1
@@ -8,43 +8,42 @@
   EndDate: Present
   first: true   # one must be true to properly display
   description: >
-    Oversaw successful submission of proposals like Google teaching proposal and CIFAR. Also, improved lab functioning through new systems. Formed a cost-effective web development team through outsourcing, saving research time and increasing lab visibility.
+    <li>Oversaw successful submission of proposals like Google teaching proposal and CIFAR.</li> <li> Improved lab functioning through new systems.</li><li> Formed a cost-effective web development team through outsourcing, saving research time and increasing lab visibility.</li>
 
 - School: CoLLAs2023
-  Degree: 
-  Program: Local Area Chair, CoLLAs2023
+  Degree:
+  Program: <strong>Local Area Chair, CoLLAs2023</strong>
   id: POL-380-Human-Rights_collas2023
-  data-id: data-princ1   
-  heading-id: head-princ1_collas2023  # This can be any random string as long as each teaching set has a unique one. 
+  data-id: data-princ1
+  heading-id: head-princ1_collas2023  # This can be any random string as long as each teaching set has a unique one.
   StartDate: December 2022
   EndDate: August 2023
   first: false
   Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
   description: >
-     My role involve overseeing and synchronizing all the aspects of the conference, ranging from managing meetings to planning and executing the event, along with leading a team towards a smooth and successful outcome.    
-    
+     <li>Overseen and synchronized all aspects of the conference, including managing meetings, planning, and executing the event.</li> <li>Additionally, I lead a team of 5 to ensure a smooth and successful outcome.</li>
 - School: CoLLAs2022
-  Degree: 
-  Program: Organizing Committee, CoLLAs2022
+  Degree:
+  Program: <strong> Organizing Committee, CoLLAs2022 </strong>
   id: POL-380-Human-Rights_collas2022
-  data-id: data-princ1   
-  heading-id: head-princ1_collas2022  # This can be any random string as long as each teaching set has a unique one. 
+  data-id: data-princ1
+  heading-id: head-princ1_collas2022  # This can be any random string as long as each teaching set has a unique one.
   StartDate: December 2021
   EndDate: August 2022
   first: false
   Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
   description: >
-     I was responsible for overseeing and coordinating all aspects of the conference, including meetings, accommodation, website, and dining arrangements. This crucial position was essential for ensuring the success of the conference.
+     <li>I efficiently managed meetings, accommodation, website, and dining arrangements to ensure a seamless and well-coordinated conference experience.</li>
 
 - School: TM
-  Degree: 
-  Program: Toastmasters International (Nonprofit Educational Organization)
+  Degree:
+  Program: <strong> Toastmasters International (Nonprofit Educational Organization) </strong>
   id: POL-380-Human-Rights
-  data-id: data-princ1   
-  heading-id: head-princ1  # This can be any random string as long as each teaching set has a unique one. 
+  data-id: data-princ1
+  heading-id: head-princ1  # This can be any random string as long as each teaching set has a unique one.
   StartDate: April 2018
   EndDate: Present
   first: false
   Icon: /assets/img/icons/2x/princeton-crop.png      # Make this icon small, think 30px/30px
   description: >
-    Led 150+ members in District 92 of Toastmasters Int'l, managing multiple business units across different locations. Persuaded CXO to implement a $25,000 USD/yr membership reimbursement program (pilot) across Wipro. Increased club strength from 4 to 40 members in under a year, and organized a 100+ audience milestone event and club contests for public speaking.
+    <li>Led 150+ members in District 92 of Toastmasters Int'l, managing multiple business units across different locations.</li><li> Persuaded CXO to implement a $25,000 USD/yr membership reimbursement program (pilot) across Wipro.</li><li> Increased club strength from 4 to 40 members in under a year, and organized a 100+ audience milestone event and club contests for public speaking.</li>
