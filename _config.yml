@@ -8,8 +8,8 @@
 # -----------BASE SETTINGS---------------#
 #========================================#
 
-title: Home 
-email: 
+title: Home
+email:
 description: Interested in Natural Language Processing & Reinforcement Learning
 baseurl:                                       # the subpath of your site, e.g. /blog
 url: "https://www.arjunvaithilingamsudhakar.com/"          # the base hostname & protocol for your site, e.g. http://example.com
@@ -18,28 +18,28 @@ image_alt: Interested in Natural Language Processing & Reinforcement Learning   
 
 # =======================================#
 # -----------SITE SETTINGS---------------#
-#========================================#: 
+#========================================#:
 author: Arjun Vaithilingam Sudhakar
-profile_image: /assets/img/arjun_cropped.jpg  #/assets/img/avatar/avatar.jpeg 
-occupation: 
+profile_image: /assets/img/arjun_cropped.jpg  #/assets/img/avatar/avatar.jpeg
+occupation:
 snippet:
-twitter: 
+twitter:
 github: innovator-arjun
 linkedin: https://www.linkedin.com/in/innovatorarjun/
-stackoverflow: 
-website: 
-codepen: 
-medium: 
+stackoverflow:
+website:
+codepen:
+medium:
 email: innovatorarjun@gmail.com
-keybase: 
-pgp: 
-ctftime: 
-phonenumber: 
+keybase:
+pgp:
+ctftime:
+phonenumber:
 
 #========================================#
 # --------- UI THEMES -------------------#
 #========================================#
-ui_theme: abyss                                 # Create your own theme by setting options in _data/themes.yml
+ui_theme: dark                                 # Create your own theme by setting options in _data/themes.yml
 
 
 # =======================================#
@@ -50,11 +50,11 @@ tags:  post jekyll styleguide ipsum
 twitter-widget: false # true,false                  # Used to show your twitter timeline on blog home page
 
 comments: false                                     # Used to enable comments on blog posts
-gitalk_client_id:             
-gitalk_client_secret:    
+gitalk_client_id:
+gitalk_client_secret:
 gitalk_repo:
-gitalk_owner: 
-gitalk_admin: 
+gitalk_owner:
+gitalk_admin:
 gitalk_distraction_mode: false
 
 # =======================================#
@@ -63,9 +63,9 @@ gitalk_distraction_mode: false
 
 nav-color: "#00334e"                                 # options: light, dark, transparent, primary, custom | Change the color of the navbar
 footer-color: "#00334e"
-color-scheme: "#00334e"                              # options: demo | changes color scheme based on preset values 
+color-scheme: "#00334e"                              # options: demo | changes color scheme based on preset values
 card-color: "#00334e"                                # Used on cards like the home highlights section
-nav-dIcon: "fas fa-caret-down"                       # Change the navbar dropdown (for mobile or small screen sizes) to any fontawesome icon. for a list of icons visit https://fontawesome.com/ 
+nav-dIcon: "fas fa-caret-down"                       # Change the navbar dropdown (for mobile or small screen sizes) to any fontawesome icon. for a list of icons visit https://fontawesome.com/
 animate: true                                        # false or true, uses animate.css to animate certain functions
 
 # =======================================#
@@ -73,16 +73,16 @@ animate: true                                        # false or true, uses anima
 #========================================#
 home_option: education                               # options: education, skills, timeline
 
-# =======================================#          # These  settings are for demo purposes only, things like 
-# -----------HELP SETTINGS---------------#          #     popup toasts and tooltips designed to help new 
-#========================================#          #     developers as they look into using this theme      
+# =======================================#          # These  settings are for demo purposes only, things like
+# -----------HELP SETTINGS---------------#          #     popup toasts and tooltips designed to help new
+#========================================#          #     developers as they look into using this theme
 help_tips: false                                    # options: true, false  | use false to disable these for production mode
 
 
 # =======================================#
 # -----------BUILD SETTINGS--------------#
 #========================================#
-theme: 
+theme:
 markdown: kramdown
 
 kramdown:
@@ -126,7 +126,7 @@ exclude:
 #   join_strings: true
 #   details_dir: bibliography
 #   details_layout: bibtex.html
-#   details_link: 
+#   details_link:
 #   query: "@*"
 
 # =======================================#
@@ -145,9 +145,9 @@ msvalidate:                                       # meta name="msvalidate.01" co
 alexaVerifyID:                                    # <meta name="alexaVerifyID" content="verification_token"><!-- Alexa Console -->
 pinterestdomain_verify:                           #<meta name="p:domain_verify" content="code_from_pinterest"><!-- Pinterest Console-->
 norton-safeweb:                                   # <meta name="norton-safeweb-site-verification" content="norton_code"><!-- Norton Safe Web -->
-detectphone: yes                                  # yes or no. Disable automatic detection and formatting of possible phone numbers 
+detectphone: yes                                  # yes or no. Disable automatic detection and formatting of possible phone numbers
 x-dns-prefetch-control: on                        # on or off. Completely opt out of DNS prefetching by setting to "off"
-fbappid:                                          # Facebook OpenGraph 
+fbappid:                                          # Facebook OpenGraph
 
 
 
@@ -191,10 +191,10 @@ jYkhkMm9o5MUN qjy/A48FgOqbz9bZ/lOvso76N  L4Hhb6MxSPtNnL5GMl7o7pk
 r8qPoVOKyc0AEQEAAYkCPAQYAQgAJhYhBMhmHm6U/60WKiqjdXWiNP I ZwaBQJf
 EmsQAhsMBQkHhh AAAoJEHWiNP I ZwaMZQQAJg6NCfHpvFfr9c8/odmt/zEXUpx
 42eB2tIFaTd/MSu5QI9rXuV6l2naC9dHBStPrpj2acCyvjeFfsxJ9VJjg3ToZH5B
-MJ2l2z28wkMiMhZw/mIPecLwEPyaYNY68 gM1XfBB4e3pmMdMdWMa5WZrC5WVwF 
+MJ2l2z28wkMiMhZw/mIPecLwEPyaYNY68 gM1XfBB4e3pmMdMdWMa5WZrC5WVwF
 exn84KNqUSmKmkIfU/WC95CfyiVQYcjdj OstFJMSMeg54KZGLJsRPDnWM83HZOk
 WZ4yaiUBEExOI0maIMFm1pYH3n lE28IHPq1RZ0r0ci9WrU8uqwU8/T4r2H/1Yd1
-a7LsuO61ERI2N7AED9QtI9uH5U8d8dbatK0Xjf2F4Wc5ErRIDzTaS2MZh2aTYKY 
+a7LsuO61ERI2N7AED9QtI9uH5U8d8dbatK0Xjf2F4Wc5ErRIDzTaS2MZh2aTYKY
 BrBj7clRYzTf/LNeZv6okYkvxYPsudy4MPvjDijnHEsoUph7gx AFG6Co0V3onA/
 emH6M9uqUa5CqZ3qZ1N ePWVarevdgsmQwQj649toluk0F7gkZZboM/gqBhh4g9p
 V9wEOwAFNzdZTFd16YG/C3ZOpz9Dn8rYe0pq5dePS 4INr5aD6hjj4hDtV9nbzOM

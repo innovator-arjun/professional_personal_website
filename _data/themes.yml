@@ -33,7 +33,7 @@ abyss:
     default-button-color: ""
     social-color-footer : black
 
-dark: 
+dark:
     name: dark
     background-color: "#000000"
     home-background-color: "#000000"
@@ -71,6 +71,3 @@ dark:
     post-font-weight: "700"
     default-button-color: ""
     social-color-footer : black
-
-
-

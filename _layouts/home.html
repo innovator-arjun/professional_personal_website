@@ -49,7 +49,7 @@ layout: default
 
 <!-- style="font-family:{{ theme.link-font }};background-color:{{ theme.nav-color }}; -->
 
-<!-- HOME HIGHLIGHTS SECTION --> 
+<!-- HOME HIGHLIGHTS SECTION -->
 {% if site.animate %}
 <div class="card mx-auto animate__animated animate__slideInUp animate__delay-1s glowing-border" style="max-width: 100%;">
 {% else %}
@@ -70,7 +70,7 @@ layout: default
       {% endfor %}
     </ul>
   </div>
-  <div class="card-body">          
+  <div class="card-body">
       <div class="tab-content mt-3">
         {% for section in site.data.sections %}
           {% if section.first %}
@@ -95,14 +95,14 @@ layout: default
                     {% endfor %}
               </div>
             {% endif %}
-          {% else %}  
+          {% else %}
             {% if section.name == "Presentations" %}
-              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
+              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
                 <p><i>{{section.description}}</i></p>
-                <p class="card-text">{% bibliography -f presentations %}</p>              
+                <p class="card-text">{% bibliography -f presentations %}</p>
               </div>
-            {% elsif section.name == "Work Experience" %}
-              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
+            <!-- {% elsif section.name == "Work Experience" %}
+              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
                 <p><i>{{section.description}}</i></p>
                   {% for projects in site.data.projects %}
                   <div class="media mt-2">
@@ -120,10 +120,10 @@ layout: default
                     </div>
                   </div>
                   {% endfor %}
-                </div>        
-              </div>
+                </div>
+              </div> -->
             {% elsif section.name == "Academic Services" %}
-              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
+              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
                 <p><i>{{section.description}}</i></p>
                     {% for courses in site.data.academic %}
                     <div class="list-group">
@@ -140,7 +140,7 @@ layout: default
                     {% endfor %}
               </div>
             {% elsif section.name == "Teaching" %}
-              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
+              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
                 <p><i>{{section.description}}</i></p>
                     {% for courses in site.data.teaching %}
                     <div class="list-group">
@@ -157,7 +157,7 @@ layout: default
                     {% endfor %}
               </div>
             {% elsif section.name == "Technical Talk" %}
-              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
+              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
                 <p><i>{{section.description}}</i></p>
                 <div class="list-group">
                 {% for courses in site.data.talk %}
@@ -166,7 +166,7 @@ layout: default
                 </div>
               </div>
             {% elsif section.name == "Scholarships/Awards" %}
-              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
+              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
                 <p><i>{{section.description}}</i></p>
                 <div class="list-group">
                 {% for courses in site.data.awards %}
@@ -175,24 +175,27 @@ layout: default
                 </div>
               </div>
             {% elsif section.name == "Publication" %}
-              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
+              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
                 <p><i>{{section.description}}</i></p>
-                <div class="list-group">
-                {% for courses in site.data.pub %}
-                  <button type="button" class="list-group-item text-left">
-                  {{ courses.Course }}
-                  
-                  <p class="mb-1">{{ courses.Program }}</p>
-                  <p class="mb-1">{{ courses.School }}</p>
-                  <p class="mb-1">{{ courses.link }}</p>
-                  </button>
-
-
-                {% endfor %}
+                  {% for pub in site.data.pubs %}
+                  <div class="media mt-2">
+                    <a href="{{ pub.link }}"><img src="{{ pub.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>
+                    <div class="media-body">
+                      <h5 class="mt-0"><a href="{{ pub.link }}" class="highlighted_v1">{{ pub.name }}</a></h5>
+                      {{ pub.description}}
+                      <p class="mb-1">{{ pub.timeline }}</p>
+                      {% if pub.tech %}
+                        <h6><mark><u>Technologies</u></mark></h6>
+                        {% for tech in pub.tech %}
+                        <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ tech }}</span>
+                        {% endfor %}
+                      {% endif %}
+                    </div>
+                  </div>
+                  {% endfor %}
                 </div>
-              </div>
             {% elsif section.name == "Coursework" %}
-              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
+              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
                 <p><i>{{section.description}}</i></p>
                 <div class="list-group">
                 {% for courses in site.data.courses %}
@@ -201,9 +204,9 @@ layout: default
                 </div>
               </div>
             {% else %}
-              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
+              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
                 <h5 class="card-title text-center"><a href="/{{ section.url }}" class="highlighted">{{section.description}}</a></h5>
-                <p class="card-text">{{ section.content }} </p>              
+                <p class="card-text">{{ section.content }} </p>
               </div>
             {% endif %}
           {% endif %}
@@ -225,7 +228,7 @@ layout: default
     e.preventDefault()
     $(this).tab('show')
     })
-</script> 
+</script>
 
 <!-- OPTIONAL TOAST JS FUNCTION-->
 <script>

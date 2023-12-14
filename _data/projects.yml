@@ -1,13 +1,25 @@
+- name: Quantum,  Montreal, Quebec
+  id: project4
+  description: >
+    Job Title: Research Assistant (Full Time)
+  timeline: >
+    Timeline: March 2023 - September 2023
+  date: true
+  link: https://www.quantum.ca/
+  image: /assets/img/icons/3x/quantum.png
+  tech:
+
+
 - name: Mila - Quebec AI Institute, Chandar Lab
   id: project1
   description: >
-    Job Title: Research Assistant (Full Time) 
+    Job Title: Research Assistant (Full Time)
   timeline: >
     Timeline: August 2021 - August 2022
   date: true
   link: https://mila.quebec/en/
-  image: /assets/img/icons/2x/mila_crop_v2.png
-  tech: 
+  image: /assets/img/icons/2x/mila.png
+  tech:
 
 
 - name: Hydro Quebec, Montreal, Quebec
@@ -19,7 +31,7 @@
   date: true
   link: https://www.hydroquebec.com/residentiel/
   image: /assets/img/icons/2x/hydro_crop.png
-  tech: 
+  tech:
 
 
 - name: Wipro Technologies, India
@@ -31,4 +43,4 @@
   date: true
   link: https://www.wipro.com/
   image: /assets/img/icons/2x/wipro_crop.png
-  tech: 
+  tech:
