@@ -6,7 +6,7 @@
     arXiv, 2023
   date: true
   link: https://arxiv.org/abs/2311.07687
-  image: /assets/img/icons/3x/quantum.png
+  image: /assets/img/icons/3x/text_games.png
   tech:
 
 
@@ -18,7 +18,7 @@
     Conference on Lifelong Learning Agents (CoLLAs)-2022 - Workshop Track
   date: true
   link: https://arxiv.org/abs/2209.01275
-  image: /assets/img/icons/2x/mila.png
+  image: /assets/img/icons/3x/fd.png
   tech:
 
 
@@ -30,5 +30,5 @@
     KSII Transactions on Internet & Information Systems - Journal
   date: true
   link: https://koreascience.kr/article/JAKO202123755947593.page
-  image: /assets/img/icons/2x/hydro_crop.png
+  image: /assets/img/icons/3x/multi.png
   tech:
