@@ -75,7 +75,7 @@ layout: default
         {% for section in site.data.sections %}
           {% if section.first %}
             {% if section.name == "Work Experience" %}
-              <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel">
+              <div class="tab-pane active overflow-auto" id="{{section.id}}" role="tabpanel">
                 <p class="card-text">{{section.description}}</p>
                   {% for projects in site.data.projects %}
                     <div class="media mt-2">
@@ -174,7 +174,7 @@ layout: default
                 {% endfor %}
                 </div>
               </div>
-            {% elsif section.name == "Publication" %}
+            {% elsif section.name == "Publications" %}
               <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
                 <p><i>{{section.description}}</i></p>
                   {% for pub in site.data.pubs %}
