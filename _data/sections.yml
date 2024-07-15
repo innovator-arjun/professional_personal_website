@@ -5,7 +5,7 @@
   url: projects.html
   first: true
 
-- name: Publication
+- name: Publications
   id: pubs
   description:
   content:
