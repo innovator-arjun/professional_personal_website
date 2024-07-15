@@ -3,10 +3,21 @@
   description: >
     <strong>Arjun Vaithilingam Sudhakar</strong>, Prasanna Parthasarathi, Janarthanan Rajendran, Sarath Chandar
   timeline: >
-    arXiv, 2023
+    ICML 2024 Workshop on Foundation Models in the Wild, 2024
   date: true
   link: https://arxiv.org/abs/2311.07687
   image: /assets/img/icons/3x/text_games.png
+  tech:
+
+- name: Multi-agent text-based Hanabi challenge
+  id: project5
+  description: >
+    H Nekoei*, <strong>Arjun Vaithilingam Sudhakar*</strong>, J Rajendran, M Liu, S Chandar
+  timeline: >
+    ICLR 2024, Generative Models for Decision Making Workshop 
+  date: true
+  link: https://openreview.net/forum?id=SGPUu7msST
+  image: /assets/img/icons/3x/hanabi_text.png
   tech:
 
 

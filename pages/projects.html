@@ -1,0 +1,29 @@
+---
+layout: page
+permalink: /projects.html
+title: projects
+header-img: 
+last-updated: 2020-10-30 5:55 PM
+---
+<div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel">
+  <p class="card-text">{{section.description}}</p>
+    {% for projects in site.data.projects %}
+      <div class="media mt-2">
+        <a href="{{ projects.link }}"><img src="{{ projects.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>
+        <div class="media-body">
+          <h5 class="mt-0"><a href="{{ projects.link }}" class="highlighted">{{ projects.name }}</a></h5>
+          {{ projects.description }}
+          <p class="mb-1">{{ projects.timeline }}</p>
+          {% if projects.tech %}
+            <h6><mark><u>Technologies</u></mark></h6>
+            {% for tech in projects.tech %}
+            <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ tech }}</span>
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+</div>
+
+
+
