@@ -1,4 +1,15 @@
-- name: Korbit,  Montreal, Quebec
+- name: TD Bank,  Toronto
+  id: project6
+  description: >
+    Job Title: Senior Gen AI Scientist
+  timeline: >
+    Timeline: October 2024 - Present
+  date: true
+  link: https://www.td.com/ca/en/personal-banking
+  image: /assets/img/icons/3x/TD-Bank-logo.png
+  tech:
+
+- name: Korbit,  Montreal
   id: project5
   description: >
     Job Title: Machine Learning Specialist
@@ -9,7 +20,7 @@
   image: /assets/img/icons/3x/korbit.png
   tech:
 
-- name: Huawei,  Montreal, Quebec
+- name: Huawei,  Montreal
   id: project4
   description: >
     Job Title: AI Research Assistant
@@ -33,7 +44,7 @@
   tech:
 
 
-- name: Hydro Quebec, Montreal, Quebec
+- name: Hydro Quebec, Montreal
   id: project2
   description: >
     Job Title: AI Research Intern
